@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Uma faca só lâmina</title>
+	<title>Experimento base</title>
 
 	<meta charset="UTF-8">
 	
@@ -10,18 +10,24 @@
 	<script>
 		less = {
 			env: "development",
+			logLevel: 2,
+			async: false,
+			fileAsync: false,
+			poll: 1000,
+			functions: {},
+			dumpLineNumbers: "comments",
+			relativeUrls: false,
+			globalVars: {
+				var1: '"string value"',
+				var2: 'regular value'
+			},
+			rootpath: ":/a.com/"
 		};
 	</script>
 
 	<script src="bower_components/less/dist/less-1.7.5.js"></script>
 </head>
 <body>
-
-	<div id="shapes">
-
-		<div id="triangle-up"></div>
-
-	</div>
-
+	content here
 </body>
 </html>
